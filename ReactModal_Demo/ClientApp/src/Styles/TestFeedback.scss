@@ -1,0 +1,42 @@
+﻿@import "Loader";
+@import "Common";
+@import "Elements.scss";
+
+.success-modal {
+    @include standardModal(500px);
+    border-top: 4px solid #51942d;
+    padding-bottom: 32px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.success-modal-550px {
+    @include standardModal(550px);
+    border-top: 4px solid #51942d;
+    padding-bottom: 32px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.success-modal-450px {
+    @include standardModal(450px);
+    border-top: 4px solid #51942d;
+    padding-bottom: 32px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.Overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 1;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.survey-page-header {
+     height:0px !important;
+}
