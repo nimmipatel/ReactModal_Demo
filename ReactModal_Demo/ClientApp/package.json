@@ -34,7 +34,7 @@
     "eslint-plugin-react": "^7.18.3",
     "nan": "^2.14.1",
     "typescript": "^3.9.10",
-    "master": "^2.1.0"
+    "gh-pages": "^2.1.0"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -47,7 +47,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint ./src/",
     "predeploy": "npm run build",
-    "deploy": "master -d build"
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
