@@ -34,7 +34,7 @@
     "eslint-plugin-react": "^7.18.3",
     "nan": "^2.14.1",
     "typescript": "^3.9.10",
-    "gh-pages": "^2.1.0"
+    "gh-pages": "^0.1.0"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -42,12 +42,12 @@
   "proxy": "https://www.surveymonkey.com",
   "scripts": {
     "start": "rimraf ./build && react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "cross-env CI=true react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "lint": "eslint ./src/",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "lint": "eslint ./src/"
   },
   "browserslist": {
     "production": [
