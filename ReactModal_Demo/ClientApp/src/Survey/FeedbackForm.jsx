@@ -1,5 +1,4 @@
 ﻿import React from "react";
-import Modal from "react-modal";
 
 export class FeedbackForm extends React.Component {
 
@@ -25,8 +24,8 @@ export class FeedbackForm extends React.Component {
     handleMessage = (event) => {
         let iframe = document.getElementById("mainframe");
 
-        if (event != undefined) {
-            if (event.origin != "https://nimmipatel.github.io/TestReview") //"http://localhost:55496")
+        if (event !== undefined) {
+            if (event.origin !== "https://nimmipatel.github.io/TestReview") //"http://localhost:55496")
             {
                 console.log("The message came from some site we don't know. We're not processing it.");
                 return;
@@ -45,7 +44,7 @@ export class FeedbackForm extends React.Component {
     handleClick = () => {
         setInterval(() => {
             var elem = document.activeElement;
-            if (elem && elem.tagName == 'IFRAME') {
+            if (elem && elem.tagName === 'IFRAME') {
                 alert('Clicked');
                 clearInterval(this.handleClick());
             }
@@ -60,7 +59,7 @@ export class FeedbackForm extends React.Component {
             let FrameH = 50; //IFrame starting height
             frame.style.height = FrameH + "px"
 
-            while (minW == maxW) {
+            while (minW === maxW) {
                 FrameH = FrameH + 100; //Increment
                 frame.style.height = FrameH + "px";
                 minW = frame.scrollWidth;
@@ -72,7 +71,7 @@ export class FeedbackForm extends React.Component {
         setInterval(() => {
             //var my_frame = document.activeElement;
             var my_frame = document.getElementById("mainframe");
-            if (my_frame && my_frame.tagName == 'IFRAME') {
+            if (my_frame && my_frame.tagName === 'IFRAME') {
                 //var my_frame = document.getElementById("mainframe");
                 if (my_frame !== null) {
                     var content_width = my_frame.contentWindow.document.documentElement.scrollWidth;
