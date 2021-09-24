@@ -19,7 +19,8 @@
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.1",
     "reactstrap": "^8.4.1",
-    "rimraf": "^2.6.2"
+    "rimraf": "^2.6.2",
+    "gh-pages": "3.1.0"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.34.0",
@@ -33,17 +34,16 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.18.3",
     "nan": "^2.14.1",
-    "typescript": "^3.9.10",
-    "gh-pages": "^0.1.0"
+    "typescript": "^3.9.10"
   },
   "eslintConfig": {
     "extends": "react-app"
   },
   "proxy": "https://www.surveymonkey.com",
   "scripts": {
-    "start": "rimraf ./build && react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
+    "start": "rimraf ./build && react-scripts start",
     "build": "react-scripts build",
     "test": "cross-env CI=true react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
