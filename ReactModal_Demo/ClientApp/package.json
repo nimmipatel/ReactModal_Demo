@@ -32,9 +32,9 @@
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.18.3",
+    "gh-pages": "^1.2.0",
     "nan": "^2.14.1",
-    "typescript": "^3.9.10",
-    "gh-pages": "^1.0.0"
+    "typescript": "^3.9.10"
   },
   "eslintConfig": {
     "extends": "react-app"
