@@ -41,7 +41,7 @@
   },
   "proxy": "https://www.surveymonkey.com",
   "scripts": {
-    "predeploy": "set PUBLIC_URL=https://nimmipatel.github.io/ReactModal_Demo/ReactModal_Demo/ClientApp/public&&npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
