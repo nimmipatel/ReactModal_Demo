@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ReactModal_Demo/static/css/main.e14a2ede.chunk.css",
+    "main.js": "/ReactModal_Demo/static/js/main.6982234e.chunk.js",
+    "main.js.map": "/ReactModal_Demo/static/js/main.6982234e.chunk.js.map",
+    "runtime-main.js": "/ReactModal_Demo/static/js/runtime-main.b74944c7.js",
+    "runtime-main.js.map": "/ReactModal_Demo/static/js/runtime-main.b74944c7.js.map",
+    "static/js/2.1152e19f.chunk.js": "/ReactModal_Demo/static/js/2.1152e19f.chunk.js",
+    "static/js/2.1152e19f.chunk.js.map": "/ReactModal_Demo/static/js/2.1152e19f.chunk.js.map",
+    "index.html": "/ReactModal_Demo/index.html",
+    "precache-manifest.9e0933a02853235159c1fbe1c0b509f4.js": "/ReactModal_Demo/precache-manifest.9e0933a02853235159c1fbe1c0b509f4.js",
+    "service-worker.js": "/ReactModal_Demo/service-worker.js",
+    "static/css/main.e14a2ede.chunk.css.map": "/ReactModal_Demo/static/css/main.e14a2ede.chunk.css.map",
+    "static/js/2.1152e19f.chunk.js.LICENSE.txt": "/ReactModal_Demo/static/js/2.1152e19f.chunk.js.LICENSE.txt",
+    "static/media/Login.scss": "/ReactModal_Demo/static/media/rInsights.d4d91305.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b74944c7.js",
+    "static/js/2.1152e19f.chunk.js",
+    "static/css/main.e14a2ede.chunk.css",
+    "static/js/main.6982234e.chunk.js"
+  ]
+}
